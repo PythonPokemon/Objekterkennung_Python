@@ -3,12 +3,12 @@
 from ultralytics import YOLO
 
 # Lade das "yolov8n.pt"
-model = YOLO("C:\\Users\\jakob.derzapf\\source\\repos\\PythonProjekte\YOLO\\runs\detect\\train\\weights\\best.pt")
+model = YOLO("C:\\Users\\jakob.derzapf\\source\\repos\\PythonProjekte\Objekterkennung_Python\\runs\detect\\train\\weights\\best.pt")
  
 
 # Starte das Training | neue Parameter
-model.train(data="C:\\Users\\jakob.derzapf\\source\\repos\\PythonProjekte\\YOLO\\UI-Control-C#-9\\config\\data.yaml", 
-            epochs=500,               # Erhöhte Epochenanzahl für längeres Training
+model.train(data="C:\\Users\\jakob.derzapf\\source\\repos\\PythonProjekte\\Objekterkennung_Python\\UI-Control-C#-9\\config\\data.yaml", 
+            epochs=100,               # Erhöhte Epochenanzahl für längeres Training
             batch=16,                # Mittelgroße Batch-Größe für GPU-Speicher und Stabilität
             #imgsz=640,               # Standardbildgröße bleibt 640x640
             lr0=0.005,               # Reduzierte Start-Lernrate für stabilere Konvergenz

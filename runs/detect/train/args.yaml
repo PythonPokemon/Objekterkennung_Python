@@ -1,8 +1,8 @@
 task: detect
 mode: train
-model: C:\Users\jakob.derzapf\source\repos\PythonProjekte\YOLO\runs\detect\train\weights\best.pt
-data: C:\Users\jakob.derzapf\source\repos\PythonProjekte\YOLO\UI-Control-C#-9\config\data.yaml
-epochs: 500
+model: C:\Users\jakob.derzapf\source\repos\PythonProjekte\Objekterkennung_Python\runs\detect\train\weights\best.pt
+data: C:\Users\jakob.derzapf\source\repos\PythonProjekte\Objekterkennung_Python\UI-Control-C#-9\config\data.yaml
+epochs: 40
 time: null
 patience: 100
 batch: 16
