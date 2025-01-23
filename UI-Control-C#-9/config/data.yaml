@@ -1,0 +1,23 @@
+names:
+- button
+- checkbox
+- dropdownMenu
+- icon
+- input
+- label
+- menu
+- menuItem
+- radio
+- switch
+- tabControl
+- upDown
+nc: 12
+roboflow:
+  license: Private
+  project: ui-control-c
+  url: https://universe.roboflow.com/bildererkennung-im-bild/ui-control-c/dataset/9
+  version: 9
+  workspace: bildererkennung-im-bild
+test: ../test/images
+train: ../train/images
+val: ../valid/images
